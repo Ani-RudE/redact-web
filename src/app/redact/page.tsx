@@ -16,7 +16,7 @@ export default function FileUploadDemo() {
                <WavyBackground className="max-w-4xl mx-auto">
                     <div className="flex justify-s">
                          <FormUI />
-                         <div className="right-file-upload w-full max-w-xl mx-auto max-h-96 mt-20 border border-dashed bg-white dark:bg-black border-neutral-200 dark:border-neutral-800 rounded-lg flex items-center justify-center h-screen">
+                         <div className="right-file-upload w-full max-w-xl mx-auto ml-10 max-h-96 mt-20 border border-dashed bg-white dark:bg-black border-neutral-200 dark:border-neutral-800 rounded-lg flex items-center justify-center h-screen">
                               <FileUpload onChange={handleFileUpload} />
                          </div>
                     </div>
